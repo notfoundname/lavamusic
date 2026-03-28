@@ -21,6 +21,10 @@ export default class LavalinkClient extends LavalinkManager {
 			queueOptions: {
 				maxPreviousTracks: 25,
 			},
+			autoChecks: {
+				sourcesValidation: false,
+				pluginValidations: false
+			},
 			playerOptions: {
 				defaultSearchPlatform: client.env.SEARCH_ENGINE,
 				onDisconnect: {
