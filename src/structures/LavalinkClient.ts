@@ -22,7 +22,7 @@ export default class LavalinkClient extends LavalinkManager {
 				maxPreviousTracks: 25,
 			},
 			autoChecks: {
-				sourcesValidation: false,
+				sourcesValidations: false,
 				pluginValidations: false
 			},
 			playerOptions: {
